@@ -119,4 +119,4 @@ In path to client certificate file, enter `client.crt`. Do not enter as a path, 
 
 In path to client key file, enter `client.key`. Again, only enter as a filename, not the path.
 
-You should now be able to sync your reMarkable from outside your local network.
+You should now be able to sync your reMarkable from outside your local network. Pairing does not work using mTLS authentication, and you will run into a cloudflare block screen. Make sure to pair beforehand, or disable the security rule temporarily for pairing.
